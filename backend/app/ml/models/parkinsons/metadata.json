@@ -1,0 +1,33 @@
+{
+  "model_type": "random_forest",
+  "features": [
+    "MDVP:Fo(Hz)",
+    "MDVP:Fhi(Hz)",
+    "MDVP:Flo(Hz)",
+    "MDVP:Jitter(%)",
+    "MDVP:Jitter(Abs)",
+    "MDVP:RAP",
+    "MDVP:PPQ",
+    "Jitter:DDP",
+    "MDVP:Shimmer",
+    "MDVP:Shimmer(dB)",
+    "Shimmer:APQ3",
+    "Shimmer:APQ5",
+    "MDVP:APQ",
+    "Shimmer:DDA",
+    "NHR",
+    "HNR",
+    "RPDE",
+    "DFA",
+    "spread1",
+    "spread2",
+    "D2",
+    "PPE"
+  ],
+  "accuracy": 0.9230769230769231,
+  "precision": 0.9333333333333333,
+  "recall": 0.9655172413793104,
+  "f1": 0.9491525423728814,
+  "num_samples": 195,
+  "dataset": "UCI Oxford Parkinson's Disease Dataset"
+}
